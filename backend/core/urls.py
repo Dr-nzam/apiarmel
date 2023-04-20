@@ -1,6 +1,6 @@
 from django.urls import path
-
+from .views import toto
 
 urlpatterns = [
-    path('',)
+    path('', toto, name='toto' )
 ]
