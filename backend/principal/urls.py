@@ -23,7 +23,7 @@ from core.views import ProduitApi
 from rest_framework.routers import DefaultRouter,SimpleRouter
 routers = routers.DefaultRouter()
 # register viewset with router
-routers.register("api", ProduitApi, basename="ProduitApi")
+routers.register("", ProduitApi, basename="ProduitApi")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
